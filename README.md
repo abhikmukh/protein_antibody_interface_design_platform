@@ -6,15 +6,15 @@ This notebook divides in three part. First part of this notebook deals with the 
 
 # Steps for the design platform
 - Step -1: Analysis of the protein protein interface
-○ Visual analysis of the interface
-○ Querying PDBe database to gather information of interface in a PDB entry
-○ Querying Uniprot database to identify the key functional residues present at the interface
+    - Visual analysis of the interface
+    - Querying PDBe database to gather information of interface in a PDB entry
+    - Querying Uniprot database to identify the key functional residues present at the interface
 - Step -2: Mutation platform
-○ Perform point mutation one by one on each of those key residues that have information about mutagenesis
-○ Another approach will be to mutate all residues that are present in the interface
+    - Perform point mutation one by one on each of those key residues that have information about mutagenesis
+    - Another approach will be to mutate all residues that are present in the interface
 - Step - 3: Evaluation - Binding affinity prediction and MD simulation
-○ Predict or calculate Binding affinity of all the mutated structures
-○ Finally we can perform MD simulation and/or docking studies on specific (high scored) structures to model the structural changes in a reliable way
+    - Predict or calculate Binding affinity of all the mutated structures
+    - Finally we can perform MD simulation and/or docking studies on specific (high scored) structures to model the structural changes in a reliable way
 
 
 
