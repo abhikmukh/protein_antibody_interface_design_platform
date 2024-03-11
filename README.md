@@ -24,7 +24,7 @@ structures. (But tools like FOldX or PyRosetta can provide much accurate informa
 - OpenMM - Python library for MD simulation ( A better and reliable pipeline can be built using AMBER or Gromacs or CHARMM)
 
 # Binding affinity heatmap
-![heatmap](heatmap.png)
+![heatmap](heatmap.PNG)
 
 
 
