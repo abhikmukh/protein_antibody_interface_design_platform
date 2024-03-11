@@ -15,6 +15,16 @@ This notebook divides in three part. First part of this notebook deals with the 
 - Step - 3: Evaluation - Binding affinity prediction and MD simulation
     - Predict or calculate Binding affinity of all the mutated structures
     - Finally we can perform MD simulation and/or docking studies on specific (high scored) structures to model the structural changes in a reliable way
+# Resources and tools used
+- PDBe API - provides entry specific or protein specific information
+- Uniprot API - provides residue level information for a specific protein
+- Pymol - visualisation tool but has some functionality to mutate protein
+structures. (But tools like FOldX or PyRosetta can provide much accurate information)
+- Prodigy - To calculate binding affinity (Method like MM/PBSA or MM/GBSA can give better results)
+- OpenMM - Python library for MD simulation ( A better and reliable pipeline can be built using AMBER or Gromacs or CHARMM)
+
+# Binding affinity heatmap
+![heatmap]
 
 
 
